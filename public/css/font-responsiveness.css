@@ -1,0 +1,88 @@
+@media only screen and (max-width:1000px) {
+   :root{
+      --heading1: 3.80rem;
+      --heading-mid: 1.91rem;
+   }
+}
+
+
+@media only screen and (max-width:900px) {
+   :root{
+      --heading1: 3.62rem;
+      --heading-mid: 1.82rem;
+   }
+}
+
+@media only screen and (max-width:800px) {
+   :root{
+      --heading1: 3.45rem;
+      --heading-mid: 1.73rem;
+   }
+}
+
+@media only screen and (max-width:700px) {
+   :root{
+      --heading1: 3.29rem;
+      --heading-mid: 1.65rem;
+      --post-heading: 2.39rem;
+   }
+}
+
+@media only screen and (max-width:600px){
+   :root{
+      --heading1: 3.13rem;
+      --heading-mid: 1.57rem;
+      --post-heading: 2.28rem;
+   }
+}
+
+@media only screen and (max-width:500px){
+   :root{
+      --heading1: 2.98rem;
+      --heading-mid: var(--heading2);
+      --post-heading: 2.17rem;
+   }
+
+   /* .blog-post-2 .post-section .content-section>h2{
+      font-size: var(--heading2);
+   } */
+}
+
+@media only screen and (max-width:450px){
+   :root{
+      --heading1: 2.84rem;
+      --post-heading: 2.07rem;
+   }
+}
+
+@media only screen and (max-width:400px){
+   :root{
+      --heading1: 2.71rem;
+      --heading2: 1.19rem;
+      --post-heading: 1.97rem;
+      --post-text: 1.10rem;
+      --paragraph: 0.95rem;
+      --small-text: 0.76rem;
+      --icon-size: 1.24rem
+   }
+}
+
+@media only screen and (max-width:350px){
+   :root{
+      --heading1: 2.58rem;
+      --heading2: 1.16rem;
+      --post-heading: 1.88rem;
+      --post-text: 1.05rem;
+      --paragraph: 0.92rem;
+      --small-text: 0.74rem;
+      --icon-size: 1.20rem
+   }
+}
+
+@media only screen and (max-width:300px){
+   :root{
+      --heading1: 2.46rem;
+      --post-heading: 1.79rem;
+      --post-text: 1.05rem;
+   }
+}

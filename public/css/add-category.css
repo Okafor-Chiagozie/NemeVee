@@ -1,0 +1,157 @@
+.main-section{
+   width: 100%;
+   min-height: min(400px, 60vh);
+   margin-top: 75px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   padding-bottom: 20px;
+}
+
+.main-section .heading{
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   background: url(../pictures/B.jfif) black;
+   padding-block: 30px;
+}
+
+.main-section .heading>h1{
+   width: min(800px, 95%);
+   height: auto;
+   font-size: var(--post-heading);
+   color: transparent;
+   background: linear-gradient(90deg, var(--main-white) 0% 40%, var(--main-grey));
+   background-clip: text;
+   -webkit-background-clip: text;
+   font-weight: lighter;
+   text-align: center;
+   margin-block: 20px;
+}
+
+
+
+.main-section .main-content{
+   width: min(900px, 90%);
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   padding-block: 20px;
+}
+
+.main-section .main-content>*{
+   width: 100%;
+   height: auto;
+   margin-bottom: 40px;
+}
+
+.main-section .main-content>* .title{
+   width: 100%;
+   height: auto;
+   border-top: 2px solid var(--main-black);
+   flex-grow: auto;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   margin-bottom: 10px;
+}
+
+.main-section .main-content>* .title>h3{
+   background-color: var(--main-black);
+   width: max-content;
+   color: var(--main-white);
+   padding-inline: 10px;
+   padding-block: 5px;
+   border-bottom-left-radius: 5px;
+   border-bottom-right-radius: 5px;
+   font-size: var(--small-text);
+}
+
+.main-content .add-form{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+}
+
+.main-content .add-form .first-section{
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+}
+
+.main-content .add-form .first-section>*{
+   margin-top: 10px;
+}
+
+.main-content .add-form .first-section>input{
+   width: min(600px, 90%);
+   padding-left: 10px;
+   height: 50px;
+   border-radius: 5px;
+   border: 1px solid var(--main-black);
+   outline: none;
+}
+
+.main-content .add-form .first-section>button{
+   width: auto;
+   padding-left: 10px;
+   height: auto;
+   border-radius: 5px;
+   border: 2px solid var(--main-blue);
+   padding-block: 9px;
+   padding-inline: 18px;
+   background-color: var(--main-black);
+   color: var(--main-white);
+   font-weight: bolder;
+   cursor: pointer;
+}
+
+.main-content .add-form .first-section>button>span{
+   color: var(--main-white);
+   font-weight: bolder;
+}
+
+
+.main-content .category .first-section{
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: flex-start;
+   align-items: center;
+}
+
+.main-content .category .first-section>span{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-inline: 16px;
+   padding-block: 8px;
+   background-color: var(--main-grey3);
+   border-radius: 100vmax;
+   margin-right: 5px;
+   margin-top: 10px;
+   color: var(--main-black);
+}
+
+.main-content .category .first-section>span .delete{
+   width: 20px;
+   height: 20px;
+   margin-left: 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   border-radius: 100%;
+   background-color: rgba(0, 0, 0, 0.1);
+   font-weight: bold;
+   cursor: pointer;
+}

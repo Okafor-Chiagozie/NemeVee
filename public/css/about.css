@@ -1,0 +1,74 @@
+.main-section{
+   width: 100%;
+   min-height: min(400px, 60vh);
+   margin-top: 75px;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   padding-bottom: 20px;
+}
+
+.main-section .heading{
+   width: 100%;
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: center;
+   background: url(../pictures/B.jfif) black;
+   padding-block: 30px;
+}
+
+.main-section .heading>h1{
+   width: min(800px, 95%);
+   height: auto;
+   font-size: var(--post-heading);
+   color: transparent;
+   background: linear-gradient(90deg, var(--main-white) 0% 40%, var(--main-grey));
+   background-clip: text;
+   -webkit-background-clip: text;
+   font-weight: lighter;
+   text-align: center;
+   margin-block: 20px;
+}
+
+
+
+
+
+.main-section .main-content{
+   width: min(900px, 90%);
+   height: auto;
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   align-items: flex-start;
+   padding-block: 20px;
+}
+
+.main-section .main-content .image-section{
+   width: min(400px, 100%);
+   height: auto;
+   aspect-ratio: 1 / 0.6;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   overflow: hidden;
+   border-radius: 5px;
+   margin-block: 20px;
+}
+
+.main-section .main-content .image-section>img{
+   min-width: 100%;
+   min-height: 100%;
+   object-fit: cover;
+}
+
+.main-section .main-content .paragraph{
+   line-height: 1.7;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-size: var(--post-text);
+   color: var(--main-black);
+   padding-block: 10px;
+}

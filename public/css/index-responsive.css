@@ -1,0 +1,169 @@
+@media only screen and (max-width:900px) {
+   .subscribe-section{
+      flex-direction: column;
+      background: linear-gradient(180deg, var(--main-black) 0% 40%, var(--main-blue) 80%);
+   }
+
+   .subscribe-section>h2{
+      width: 90%;
+      margin-right: 0px;
+      margin-bottom: 20px;
+   }
+
+   .subscribe-section .search-form{
+      width: min(500px, 90%);
+   }
+}
+
+
+@media only screen and (max-width:800px) {
+   .section-1{
+      grid-template-columns: 1fr;
+      gap: 20px 20px;
+   }
+
+   .section-1 .first-section{
+      padding-right: 0;
+   }
+
+   .section-1 .second-section{
+      flex-direction: row;
+      flex-wrap: wrap;
+   }
+
+   .section-1 .second-section .heading{
+      margin-bottom: 20px;
+   }
+
+   .section-1 .second-section .other-section{
+      width: 50%;
+      padding-inline: 5px;
+   }
+
+   .section-1 .second-section>section:nth-child(2){
+      border-bottom: none;
+      border-right: 1px solid var(--main-grey2);
+   }
+
+   .blog-post-1 .post-section{
+      width: calc(100% / 2);
+   }
+
+   .blog-post-2 .post-section .image-section{
+      width: 40%;
+   }
+
+   .blog-post-2 .post-section .content-section{
+      width: 58%;
+   }
+}
+
+
+@media only screen and (max-width:700px) {
+   .section-1, .blog-post-1, .blog-post-2{
+      padding-inline: 40px;
+   }
+   .subscribe-section{
+      margin-inline: 40px;
+   }
+
+   .section-1 .second-section .other-section{
+      width: 100%;
+      padding-inline: 0px;
+      padding-block: 10px;
+   }
+
+   .section-1 .second-section .other-section .image-section{
+      aspect-ratio: 1 / 0.8;
+   }
+
+   .section-1 .second-section>section:nth-child(2){
+      border-right: none;
+      border-bottom: 1px solid var(--main-grey2);
+   }
+
+   .blog-post-1 .post-section{
+      padding-inline: 10px;
+   }   
+}
+
+
+@media only screen and (max-width:500px){
+   .section-1, .blog-post-1, .blog-post-2{
+      padding-inline: 30px;
+   }
+   .subscribe-section{
+      margin-inline: 30px;
+   }
+
+   .scroller-first .scroller-second{
+      padding-block: 15px;
+   }
+
+   .scroller-first .scroller-second .scroll-container>span{
+      padding-inline: 50px;
+   }
+
+   .blog-post-1 .post-section{
+      width: 100%;
+      padding-inline: 0px;
+   }
+
+   .blog-post-1 .post-section .image-section{
+      aspect-ratio: 1 / 0.6;
+   }
+
+   .subscribe-section .search-form{
+      height: 50px;
+   }
+   
+   .blog-post-2 .post-section .image-section{
+      width: 30%;
+   }
+
+   .blog-post-2 .post-section .content-section{
+      width: 70%;
+   }
+
+   .row .image-section{
+      margin-right: 7px;
+   }
+
+   .row-reverse .image-section{
+      margin-left: 7px;
+   }
+}
+
+
+@media only screen and (max-width:400px){
+   .section-1, .blog-post-1, .blog-post-2{
+      padding-inline: 25px;
+   }
+   .subscribe-section{
+      margin-inline: 25px;
+   }
+
+   .subscribe-section{
+      padding-block: 40px;
+   }
+}
+
+
+@media only screen and (max-width:350px){
+   .section-1, .blog-post-1, .blog-post-2{
+      padding-inline: 20px;
+   }
+   .subscribe-section{
+      margin-inline: 20px;
+   }
+}
+
+
+@media only screen and (max-width:300px){
+   .section-1, .blog-post-1, .blog-post-2{
+      padding-inline: 15px;
+   }
+   .subscribe-section{
+      margin-inline: 15px;
+   }
+}
